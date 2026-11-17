@@ -7,7 +7,7 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/home/grimm/bot/tgEmojiBot
-ExecStart=/home/grimm/bot/tgEmojiBot/venv/bin/python3 /home/grimm/bot/tgEmojiBot/bot.py
+ExecStart=/home/grimm/bot/tgEmojiBot/.venv/bin/python3 /home/grimm/bot/tgEmojiBot/bot.py
 RestartSec=10
 Restart=always
 
